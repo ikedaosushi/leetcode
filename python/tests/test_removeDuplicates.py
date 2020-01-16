@@ -8,7 +8,7 @@ from removeDuplicates import Solution
     ([1, 1, 1, 2, 2, 3, 3, 3, 3], [1, 1, 2, 2, 3, 3]),
     ([0, 0, 1, 1, 1, 1, 2, 3, 3], [0, 0, 1, 1, 2, 3, 3])
 ])
-def test_setZeros(nums, expected):
+def test_removeDuplicates(nums, expected):
     length = Solution().removeDuplicates(nums)
     assert nums == expected
     assert len(nums) == length

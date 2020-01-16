@@ -10,6 +10,6 @@ from addBinary import Solution
     ("1111111", "0", "1111111"),
     ("1111", "1111", "11110")
 ])
-def test_plusOne(a, b, expected):
+def test_addBinary(a, b, expected):
     actual = Solution().addBinary(a, b)
     assert actual == expected

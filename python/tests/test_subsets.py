@@ -51,6 +51,6 @@ case = unittest.TestCase()
         ]
     ),
 ])
-def test_setZeros(nums, expected):
+def test_subsets(nums, expected):
     actual = Solution().subsets(nums)
     case.assertCountEqual(actual, expected)
