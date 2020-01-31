@@ -15,6 +15,17 @@ class Solution:
 
         return prev
 
+    # def reverseList(self, head: ListNode) -> ListNode:
+    #     self._reverseList(head, None)
+
+    # def _reverseList(self, node, prev):
+    #     if not node:
+    #         return prev
+
+    #     next_ = node.next
+    #     node.next = prev
+    #     self._reverseList(next_, node)
+
 
 if __name__ == "__main__":
     nums = [1, 2, 3, 4, 5]
