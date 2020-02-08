@@ -19,7 +19,6 @@ class Solution:
                 else:
                     break
             deq.append(i)
-        print(deq)
 
         for i in range(k, len(nums)):
             res.append(nums[deq[0]])
