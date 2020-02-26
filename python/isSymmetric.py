@@ -32,9 +32,6 @@ class Solution:
             else:
                 right_nums.append(None)
 
-        print("left:", left_nums)
-        print("right:", right_nums)
-
         return left_nums == right_nums
 
 
