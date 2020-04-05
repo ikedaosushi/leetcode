@@ -1,3 +1,8 @@
 {
-    "python.pythonPath": "/Users/yutaro/.pyenv/versions/3.8.2/bin/python3.8"
+    "python.pythonPath": "/Users/yutaro/.pyenv/versions/3.8.2/bin/python3.8",
+    "python.envFile": "/Users/yutaro/ghq/ikedaosushi-github.com/ikedaosushi/leetcode/.env",
+    "editor.formatOnSave": true,
+    "[python]": {
+        "editor.formatOnSave": true
+    },
 }
