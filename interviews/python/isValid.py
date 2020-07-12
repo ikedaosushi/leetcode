@@ -9,7 +9,7 @@ class Solution:
             if c in "([{":
                 stack.append(c)
             else:
-                if validCombi[c] != stack.pop():
+                if len(stack) == 0 or self.validCombi[c] != stack.pop():
                     return False
 
         return len(stack) == 0
